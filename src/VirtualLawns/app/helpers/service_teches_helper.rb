@@ -1,0 +1,2 @@
+module ServiceTechesHelper
+end

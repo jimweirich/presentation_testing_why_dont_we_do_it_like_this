@@ -1,0 +1,2 @@
+module ServiceTripsHelper
+end

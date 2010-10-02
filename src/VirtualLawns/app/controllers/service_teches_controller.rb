@@ -1,0 +1,2 @@
+class ServiceTechesController < ApplicationController
+end

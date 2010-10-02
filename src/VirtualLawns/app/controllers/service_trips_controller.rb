@@ -1,0 +1,2 @@
+class ServiceTripsController < ApplicationController
+end
