@@ -1,0 +1,3 @@
+Jim: Testing private controller methods via send makes controller tests WAY too brittle.
+Scott Barron: it also kills unicorns
+so - congratulations. now they're extinct.
