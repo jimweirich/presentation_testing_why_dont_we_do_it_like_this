@@ -6,6 +6,9 @@ class Stack
   def empty?
     true
   end
+  def size
+    1
+  end
 end
 
 describe Stack do
@@ -16,9 +19,9 @@ describe Stack do
   end
 
   context "stack with one item" do
-    let(:stack) { a_stack_with_one_item }
+    subject { a_stack_with_one_item }
     context "when poped" do
-      before { stack.pop }
+      before { subject.pop }
       it { should be_empty }
     end
   end

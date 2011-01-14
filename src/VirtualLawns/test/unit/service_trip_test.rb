@@ -23,6 +23,14 @@ class ServiceTripTest < ActiveSupport::TestCase
     }
   end
 
+  test "Time for Fabricate" do
+    bench("Fabricate.create") {
+      TIMES.times do
+        trip = Fabricate(:service_trip)
+      end
+    }
+  end
+
   test "Time for Factory.build" do
     bench("Factory.build") {
       TIMES.times do

@@ -14,9 +14,9 @@ end
 
 describe Stack do
   context "stack with one item" do
-    let(:stack) { a_stack_with_one_item }
-    context "when popped" do
-      before { stack.pop }
+    subject { a_stack_with_one_item }
+    context "when poped" do
+      before { subject.pop }
       it { should be_empty }
     end
   end

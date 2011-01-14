@@ -28,6 +28,7 @@ gem 'mysql', '2.8.1'
 # and rake tasks are available in development mode:
 group :development, :test do
   gem 'factory_girl'
+  gem 'fabrication'
   gem 'faker'
 #   gem 'webrat'
 end
